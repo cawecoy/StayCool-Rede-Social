@@ -1,0 +1,33 @@
+
+::::::::::::::
+::::::::::::::
+::: Estudo :::
+::::::::::::::
+::::::::::::::
+
+- Basicamente, será preciso estudar os "SQL Queries", as "Classes java" e os "JSP". Aconselho estudar nessa ordem.
+- Focar bem mais no Banco de dados (Classes Java e, PRINCIPALMENTE, os queries SQL), não nos JSP
+
+- Modelo Relacional
+	- Cheque a figura da pasta "Modelo Relacional". É o modelo relacional completo do banco de dados.
+	- Um conselho é imprimir e testar o aplicativo com ele em mãos. Ajuda a clarear bem as ideias do aplicativo & banco de dados
+
+- Geral (JSP e Java):
+	- As principais estruturas de dados são a ArrayList e o Iterator. Quase todas as consultas ao BD retornam listas do tipo ArrayList. Na hora de exibir as informações ao usuário, essas listas são passadas para os iteradores, que percorrem a lista, repare no tanto de "while (it.hasNext())" que tem nos JSPs!
+
+- JSP:
+	- Os JSP são utilizados basicamente para duas coisas:
+		- Interface do usuário (o usuário ve e interage); ou
+		- Interagir com as classes Java para Ler, Atualizar, Inserir ou Deletar dados do BD (o usuário não ve nem interage).
+	- Atenção especial para o "getImagem.jsp" e o "getPostPic.jsp", que interagem com classes Java e carregam as imagens (de foto de perfil e de fotos de posts) e simplesmente retornam um tag HTML <img src="alguma_imagem.png"/> que é exibida em outro JSP para o usuário. Ex: Ao carregar uma lista de amigos a ser exibida, para cada amigo é chamado esse "getImagem.jsp", que retorna a foto do amigo a ser exibida no tag HTML <img src="foto_algum_amigo.png"/>
+	- Alguns JSPs usam javascript. Como, por exemplo, o a pagina principal "principal.jsp", que quando o usuario clica para ver quem curtiu um certo post, a página exibe um "alert()" com o nome das pessoas curtidoras via javascript.
+
+- Java:
+	- As classes são usadas basicamente para Ler, Atualizar, Inserir ou Deletar dados do BD. De uma olhada!
+
+- Queries SQL:
+	- os mais complexos são todos da classes "Estatistica.java", que separei e comentei (encontra-se na pasta "SQL queries")
+	- outro query complexo é o da consulta para sugestão de amigos, da classe "ListaAmigos.java" (tambem separado e comentado)
+	- os queries para o CRUD (Create, read, update and delete), não são muito complexos, mas vale a pena dar uma checada
+	- aconselha-se testar o Query SQL mais importantes no pgAdmin
+	-v2- Nota especial para a propridade "ON CASCADE" da criação das tabelas SQL no banco de dados. Essa propriedade permite Atualizar ou Excluir automaticamente todas tabelas que tem atributos em comum ou que dependem um do outro (e que estejam setados com essa propriedade ON CASCADE). Por exemplo, setando ON CASCADE UPDATE para o atributo "meulogin" na tabela "amigos", fará com que sempre quando o "login" de um usuário for atualizado na tabela "usuarios", o atributo "meulogin" será atualizado EM CASCATA em todas as tuplas da tabela "amigos" em que esse usuário aparecer.
