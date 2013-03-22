@@ -157,10 +157,10 @@
     <footer id="pagefooter">
             <div id="footerwrap">
                     <div class="copyright">
-                             2012 &copy; Trabalho de Banco de Dados | Ciência da Computação UEL | Professor Daniel Kaster
+                             2012 &copy;
                     </div>
                     <div class="credit">
-                            Desenvolvido por Luiz Villela
+                            Desenvolvido por Cawe Coy Rodrigues Marega
                     </div>
             </div>
     </footer>
