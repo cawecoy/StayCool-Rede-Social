@@ -7,6 +7,8 @@ Esta é uma rede social simples onde o usuário pode buscar e adicionar amigos, 
 
 Trata-se de é um aplicativo web desenvolvido em Java / JSP / HTML / CSS / JS que roda sob um servidor Tomcat e utiliza o banco de dados PostgreSQL. O desenvolvimento foi feito com o NetBeans IDE. Não foi utilizado Hibernate e nem um outro framework.
 
+::Siga as intruções abaixo para testar o aplicativo localmente
+
 ::Criando Banco de dados
 
 1. Instale o PostgreSQL (anote o usuário e senha que a instalação irá te pedir)
