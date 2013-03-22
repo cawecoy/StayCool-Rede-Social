@@ -157,7 +157,7 @@
     <footer id="pagefooter">
             <div id="footerwrap">
                     <div class="copyright">
-                             2012 &copy;
+                             2012 &copy; cawecoy
                     </div>
                     <div class="credit">
                             Desenvolvido por Cawe Coy Rodrigues Marega

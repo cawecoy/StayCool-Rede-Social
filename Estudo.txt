@@ -5,7 +5,7 @@
 ::::::::::::::
 ::::::::::::::
 
-- Basicamente, será preciso estudar os "SQL Queries", as "Classes java" e os "JSP". Aconselho estudar nessa ordem.
+- Basicamente, é preciso estudar os "SQL Queries", as "Classes java" e os "JSP". Aconselho estudar nessa ordem.
 - Focar bem mais no Banco de dados (Classes Java e, PRINCIPALMENTE, os queries SQL), não nos JSP
 
 - Modelo Relacional
@@ -23,7 +23,7 @@
 	- Alguns JSPs usam javascript. Como, por exemplo, o a pagina principal "principal.jsp", que quando o usuario clica para ver quem curtiu um certo post, a página exibe um "alert()" com o nome das pessoas curtidoras via javascript.
 
 - Java:
-	- As classes são usadas basicamente para Ler, Atualizar, Inserir ou Deletar dados do BD. De uma olhada!
+	- As classes são usadas basicamente para Ler, Atualizar, Inserir ou Deletar dados do BD.
 
 - Queries SQL:
 	- os mais complexos são todos da classes "Estatistica.java", que separei e comentei (encontra-se na pasta "SQL queries")
