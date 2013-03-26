@@ -46,7 +46,7 @@ Trata-se de é um aplicativo web desenvolvido em Java / JSP / HTML / CSS / JS qu
 1. No seu projeto no NetBeans, abra todas as classes Java.
 2. No menu, clique em Find -> Replace...
 3. Então, para todas as classes Java, mande o NetBeans substituir a linha abaixo por uma equivalente com os dados do seu servidor e banco de dados
-DriverManager.getConnection("jdbc:postgresql://host:port/dbname","username","password");
+DriverManager.getConnection("jdbc:postgresql://localhost:5432/testes","postgres","marega");
 
 * No caso da nossa configuração, fica:
 DriverManager.getConnection("jdbc:postgresql://localhost:5432/NOME DO SEU BANCO DE DADOS","SEU USUÁRIO","SUA SENHA");
